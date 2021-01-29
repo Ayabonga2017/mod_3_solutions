@@ -2,16 +2,15 @@
   box-sizing: border-box;
 }
 body{
-	font-size: 16px;
+  font-size: 16px;
   font-family: cursive, serif;
 }
 #header-nav {
-	background-color: grey;
-	border-radius: 0;
-	border: 0;
-	padding-bottom: ;
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: ;
 }
-
 .navbar-brand h1 { 
   font-family: cursive, serif;
   font-size: 1.7em;
@@ -22,29 +21,30 @@ body{
   text-shadow: 3px 2px 3px mediumblue;
   text-align: left;
 }
+.container.navbar-nav {
+    margin: 0px -15px;
+}
 a{
-	color: white;
+  color: white;
 }
 a:hover{
-	text-decoration: none;
-	color: red;
-	font-weight: bold;
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
     text-shadow: 1px 0px 1px mediumblue;
-
 }
 .navbar-default .navbar-nav>li>a:hover, a:focus {
-	text-decoration: none;
+  text-decoration: none;
     color: black;
     text-shadow: 3px 2px 3px red;
     text-transform: uppercase;
 }
 .container #nav-list{
-	color: white;
+  color: white;
 text-decoration: none;
-}
 }
 .navbar-nav>li>a {
    padding-top: 5px;
@@ -60,44 +60,40 @@ text-decoration: none;
     background: darkslategrey;
     text-align: center;
 }
-.container.navbar-nav {
-    margin: 0px -15px;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  background-color: white;
+  border: 1px solid mediumblue;
+}
+div#container {
+  position: relative;
+  top: 20px;
+  padding: 25px;
 }
 h2 {
   text-align: center;
-  	font-size: 2em;
-  	font-weight: bold;
+    font-size: 2em;
+    font-weight: bold;
    text-shadow: 1px 0px 1px #3b82a5;
    margin-top: -25px;
    padding-bottom: 14px;
 }
 h3{
-	color: white;
+  color: white;
   text-align: center;
   font-size: large;
   font-weight: bold;
   text-shadow: 3px 2px 3px mediumblue;
 }
 article {
-	 margin-top: -35px;
+   margin-top: -35px;
     border: 1px solid black;
     padding: 10px;
     background: grey;
     text-align: center;
 }
 p{
-	padding-top: 23px;
-	text-align: center;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  background-color: white;
-  border: 1px solid mediumblue;
-}
-
-div#container {
-  position: relative;
-  top: 20px;
-  padding: 25px;
+  padding-top: 23px;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -187,8 +183,7 @@ div#container {
     width: 100%;
   }
   }
-
-  /********** Hide Menu Display from Small to Large devices only **********/
+  /********** Hide Menu display from Small to Large devices only **********/
 @media (min-width: 768px) {
   .container #nav-list {
     display: none;
@@ -198,6 +193,6 @@ div#container {
     text-align: center;
 }
 .back{
-	display: none;
+  display: none;
 }
 }
