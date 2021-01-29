@@ -28,7 +28,6 @@ a{
 a:hover{
 	text-decoration: none;
 	color: red;
-	font-size: 0.9em;
 	font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a {
@@ -44,9 +43,6 @@ a:hover{
 }
 .container #nav-list{
 	color: white;
-	font-weight: bold;
-  	margin-top: 10px;
-  	margin-bottom: 20px;
 text-decoration: none;
 }
 }
@@ -68,11 +64,12 @@ text-decoration: none;
     margin: 0px -15px;
 }
 h2 {
-  	text-align: center;
+  text-align: center;
   	font-size: 2em;
   	font-weight: bold;
    text-shadow: 1px 0px 1px #3b82a5;
-   margin-bottom: -25px;
+   margin-top: -25px;
+   padding-bottom: 14px;
 }
 h3{
 	color: white;
@@ -103,16 +100,12 @@ div#container {
   padding: 25px;
 }
 
-.row {
-  width: 100%;
-}
-
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   
   }
-  .col-lg-1 {
+    .col-lg-1 {
     width: 8.33%;
   }
   .col-lg-2 {
